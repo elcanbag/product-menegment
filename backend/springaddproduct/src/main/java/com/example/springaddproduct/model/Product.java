@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @CrossOrigin(origins = "*")
 @Entity
-@Table(name = "products")  // Tablo adını belirtmek için
+@Table(name = "products")
 public class Product {
 
     @Id
@@ -20,18 +20,18 @@ public class Product {
     private int year;
     private String barcode;
 
-    // Boş yapıcı (no-args constructor)
+
     public Product() {
     }
 
-    // Parametreli yapıcı
+
     public Product(String name, int year, String barcode) {
         this.name = name;
         this.year = year;
         this.barcode = barcode;
     }
 
-    // Getter ve Setter metodları
+
     public Long getId() {
         return id;
     }
