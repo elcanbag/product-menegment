@@ -92,7 +92,7 @@
 
         // Fetch products from backend and populate the table
         async function loadProducts() {
-            const response = await fetch('http://localhost/api/products');
+            const response = await fetch('http://localhost:8080/api/products');
             const products = await response.json();
 
             const productList = document.getElementById('product-list');
@@ -116,7 +116,7 @@
 
         // Delete product function
         async function deleteProduct(productId) {
-            const response = await fetch(`http://localhost/api/products/${productId}`, {
+            const response = await fetch(`http://localhost:8080/api/products/${productId}`, {
                 method: 'DELETE'
             });
 
