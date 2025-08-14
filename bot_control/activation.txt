@@ -1,5 +1,5 @@
 coshqun_elektroniks=active
-coshqun_mobile=inactive
+coshqun_mobile=1
 eldorado=1
 by_coshqun=active
-cosshgun_telekom=0
+cosshgun_telekom=1
