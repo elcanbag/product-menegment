@@ -1,0 +1,5 @@
+coshqun_elektroniks=active
+coshqun_mobile=inactive
+eldorado=1
+by_coshqun=active
+cosshgun_telekom=0
